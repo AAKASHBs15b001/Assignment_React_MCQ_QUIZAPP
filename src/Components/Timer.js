@@ -12,7 +12,7 @@ export default function Timer(props) {
         {("0" + Math.floor((props.time / 60000) % 60)).slice(-2)}:
       </span> */}
       <span className="digits">
-        {20-("0" + Math.floor((props.time / 1000) % 60)).slice(-2)}
+        {15-("0" + Math.floor((props.time / 1000) % 60)).slice(-2)}
       </span>
       
       {/* <span className="digits mili-sec">
